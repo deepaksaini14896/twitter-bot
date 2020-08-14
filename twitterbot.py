@@ -1,8 +1,8 @@
 import tweepy
 
 # Authenticate to Twitter
-auth = tweepy.OAuthHandler("O9g1Ls3wC2E45IsXEyIB5qNzk", "Kt69gbS3NDtSu8D5TIb34XvfgJHpCbPHC4braL4UIKe2oPx717")
-auth.set_access_token("1289117209051062272-rxOrDiwY3BuCXthowcnc37ofvOaen9", "FXLZOSU6KtDqE4LH9VO3C8HZ7jz4c8I2escJNAfr2j1YM")
+auth = tweepy.OAuthHandler("Xeic6A6QkhDG4AQnvjVIJJ37J", "VP54jcIt5uCNJEHHqQUme8KN0Kmgprdtl5b5wlkvPujgETGfwY")
+auth.set_access_token("1289117209051062272-udu9y5BYw8GNeGLqRuHcCuFodjrksQ", "Iop2nctZq6UcLKSw0SiLYChZl4vXAYSmvUrA7GOw9WrmO")
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
